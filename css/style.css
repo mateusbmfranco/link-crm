@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Poppins:wght@200&display=swap');
 
-
-#header {
-    padding: 30px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Abhaya Libre', serif;
 }
 
-#header ul {
-    margin: 0;
-    padding: 0;
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 a {
@@ -23,55 +21,59 @@ li {
     list-style-type: none
 }
 
-
-#header li {
-
-    list-style: none;
-    display: inline-block;
-    margin: 0 15px 0 0;
-    padding: 13px;
-}
-
-
 #header a {
-
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
 }
 
-
-
-
 .menu-nav {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-    position: relative;
+.menu-nav ul {
+    margin-top: 20px;
+}
+
+.menu-nav li {
+    float: left;
+    font-size: 18px;
+}
+
+.menu-nav a {
+    padding: 12px 16px 12px 16px;
+}
+
+.menu-nav a:hover {
+    color: #fff;
+    background-color: #ff1b22;
+}
+
+
+.menu-nav li a{
+    font-weight: bold;
+    color: #ff1b22;
 }
 
 #capa {
-
     background-image: linear-gradient(50deg, #ff002e, #ff1b22, #ff6b00);
     padding: 180px;
 
 }
 
-* {
-    margin: 0 auto;
-}
-
 .titulo {
     color: white;
-
     font-family: 'Times New Roman', Times, serif;
     font-size: 33px;
-    padding-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .subtitulo-capa {
     color: white;
     font-family: 'Times New Roman', Times, serif;
-
     font-size: 23px;
 
 
@@ -98,8 +100,6 @@ li {
 
 #section-dois {
     padding: 230px;
-
-
 }
 
 .recursos {
@@ -107,7 +107,6 @@ li {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
-
 }
 
 .recursos {
@@ -115,7 +114,6 @@ li {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
-
 }
 
 .ver-mais {
@@ -129,13 +127,6 @@ li {
     text-transform: uppercase;
 }
 
-.footer-nav {
-    text-decoration: none;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    align-content: center;
-}
-
 footer {
     background-color: black;
     padding: 90px;
@@ -143,6 +134,13 @@ footer {
     display: flex;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
+}
+
+.footer-nav {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-content: center;
 }
 
 footer li a {
@@ -154,7 +152,6 @@ footer ul {
 }
 
 .logo {
-    font-size: 50px;
-    font-family: 'Abhaya Libre', serif;
+    font-size: 50px;  
 
 }
